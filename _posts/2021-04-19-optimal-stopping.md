@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Optimal Stopping"
+title: "Knowing when to stop"
 date: "2021-04-19"
 categories: book algorithms-to-live-by
 ---

@@ -1,7 +1,5 @@
 ---
-layout: post
-title: "Chapter 1: You don't have to be a genius"
-date: "2021-04-20"
+title: "You don't have to be a genius"
 categories: books show-your-work
 ---
 
