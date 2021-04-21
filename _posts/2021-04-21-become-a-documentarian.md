@@ -1,5 +1,6 @@
 ---
 title: "Become a Documentarian"
+author: "Rohan Awhad"
 categories: books show-your-work
 ---
 
