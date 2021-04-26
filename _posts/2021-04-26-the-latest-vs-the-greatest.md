@@ -25,19 +25,19 @@ It is worth spending some capital on bad options, because if you don't, you may 
 
 How do you allocate your resources to explore new - better, solutions, while exploiting your current best?
 
-Over the course of history, many algorithms have been designed to solve this problem, namely, greedy, $\epsilon$-greedy, Gittin's Index, Upper Confidence Bound Interval(UCBI), etc. Here, we are looking at current best, and the simplest one, i.e. UCBI. 
+Over the course of history, many algorithms have been designed to solve this problem, namely, greedy, $$\epsilon$$-greedy, Gittin's Index, Upper Confidence Bound Interval(UCBI), etc. Here, we are looking at current best, and the simplest one, i.e. UCBI. 
 
-It works on the same idea of error measure. It is like, when you buy any measuring instrument, say a ruler/scale, it may measure 1 cm as 1.01 cm to 0.09 cm (i.e. $\pm$ .01 cm). this .01 cm is called the error. So, whenever you record your results, with the use of this ruler you will write it like $1 \pm .01 cm$. 
+It works on the same idea of error measure. It is like, when you buy any measuring instrument, say a ruler/scale, it may measure 1 cm as 1.01 cm to 0.09 cm (i.e. $$\pm$$ .01 cm). this .01 cm is called the error. So, whenever you record your results, with the use of this ruler you will write it like $$1 \pm .01 cm$$. 
 
 So, for simplicity sake, let's say, you have 4 designs, which wanna explore, and exploit the best of them. So, in the start, you assign an equal error measure and metric scores to all the 4 options, and randomly pick one design. Get the metrics for it.
 
-After this you get some information about the design selected, which makes the uncertainty or the error in your decision, a wee bit small. So, over time, as you explore and get more information for each design, the $\pm$ error in your decision is going to decrease in your decision, which will help you make better informed choices. 
+After this you get some information about the design selected, which makes the uncertainty or the error in your decision, a wee bit small. So, over time, as you explore and get more information for each design, the $$\pm$$ error in your decision is going to decrease in your decision, which will help you make better informed choices. 
 
 So, the formula for this goes, in a very rough sense like,
 
 $$Exploitation \hspace1mm Chance \hspace2mm =\hspace2mm  Metrics \hspace2mm + \hspace2mm Error \hspace1mm Interval$$
 
-![UCBI.png](/assets/img/UCBI.png)
+![UCBI.png](/blog/assets/img/UCBI.png)
 
 Here, for our next action, we choose A. We see that, even though the design 'C' has more metric score, and less error interval, design 'A' hasn't been explored the same to make an informed decision. In fact, there is a probability that, it will payout more than 'C', because it's upper error bound is higher. In this case, design 'B' will probably not be further explored, because it can never outperform 'C'. It's upper bound is lower than 'C'.
 
