@@ -1,6 +1,4 @@
-# The Latest vs The Greatest
-
-##### Which one would you choose?
+#### Which one would you choose?
 
 In 2007, Google's Product Manager, Dan Siroker, took a leave of absence to head the "New Media Analytics" team for the presidential campaign, of then Senator Barack Obama. He was brought in to apply Google's web practices on the bright-red DONATE button of the campaign's site. And the results: Astonishing, $57 Million of additional donation was raised, directly due to his work.
 
